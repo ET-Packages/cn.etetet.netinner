@@ -1,0 +1,24 @@
+{
+  "name": "cn.etetet.netinner",
+  "displayName": "ET.NetInner",
+  "version": "0.0.9",
+  "description": "et netinner",
+  "author": {
+    "name": "tanghai",
+    "url": "https://github.com/egametang/ET"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egametang/ET"
+  },
+  "relatedPackages": {},
+  "dependencies": {
+    "cn.etetet.excel": "0.0.4",
+    "cn.etetet.proto": "0.0.3",
+    "cn.etetet.sourcegenerator": "0.0.4"
+  },
+  "publishConfig": 
+  { 
+    "registry": "https://npm.pkg.github.com/@ET-Packages" 
+  }
+}
