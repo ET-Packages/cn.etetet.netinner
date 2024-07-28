@@ -1,9 +1,6 @@
 {
 "Id": 28,
 "Name": "NetInner",
-"GitDependencies": {
-  "com.cysharp.memorypack": "https://github.com/Cysharp/MemoryPack.git?path=src/MemoryPack.Unity/Assets/Plugins/MemoryPack#1.10.0"
-},
 "ScriptsReferences": {
   "ModelView": [
     "ET.Core"
