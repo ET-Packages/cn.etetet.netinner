@@ -1,7 +1,7 @@
 ﻿{
   "name": "cn.etetet.netinner",
   "displayName": "ET.NetInner",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "内网消息模块",
   "author": {
     "name": "tanghai",
@@ -14,7 +14,7 @@
   "relatedPackages": {},
   "dependencies": {
     "cn.etetet.excel": "0.0.6",
-    "cn.etetet.proto": "0.0.6",
+    "cn.etetet.proto": "0.0.8",
     "cn.etetet.sourcegenerator": "0.0.5"
   },
   "publishConfig": {
