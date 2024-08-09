@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "cn.etetet.netinner",
   "displayName": "ET.NetInner",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "内网消息模块",
   "author": {
     "name": "tanghai",
@@ -17,8 +17,7 @@
     "cn.etetet.proto": "0.0.6",
     "cn.etetet.sourcegenerator": "0.0.5"
   },
-  "publishConfig": 
-  { 
-    "registry": "https://npm.pkg.github.com/@ET-Packages" 
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ET-Packages"
   }
 }
