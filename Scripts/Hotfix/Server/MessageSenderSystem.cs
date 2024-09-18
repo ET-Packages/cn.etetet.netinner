@@ -60,11 +60,11 @@ namespace ET.Server
                 response = a2NetInnerResponse.MessageObject;
             }
             
-            if (response.Error == ErrorCore.ERR_MessageTimeout)
+            if (response.Error == ErrorCode.ERR_MessageTimeout)
             {
                 throw new RpcException(response.Error, $"Rpc error: request, 注意Actor消息超时，请注意查看是否死锁或者没有reply: actorId: {actorId} {request}, response: {response}");
             }
-            if (needException && ErrorCore.IsRpcNeedThrowException(response.Error))
+            if (needException && ErrorCode.IsRpcNeedThrowException(response.Error))
             {
                 throw new RpcException(response.Error, $"Rpc error: actorId: {actorId} {request}, response: {response}");
             }
